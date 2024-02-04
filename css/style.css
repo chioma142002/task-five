@@ -1,0 +1,71 @@
+body {
+  background-color: skyblue;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.dog-container {
+  background-color: darkturquoise;
+  padding: 10px;
+}
+
+.img img {
+
+  border: 4px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 0 10 brown;
+}
+
+.second {
+  border: 8px solid black;
+  border-radius: 20% 0 0 0;
+  margin: 0;
+  padding: 25px;
+  align-items: center;
+  width: 400px;
+  height: 430px;
+  background-color: darkturquoise;
+}
+
+.dog img {
+  border: 2px;
+  border-radius: 50px;
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wannabe {
+  margin-top: -20px;
+}
+
+.buddies {
+  display: flex;
+  border-spacing: 10px;
+  gap: 50px;
+  padding: 0 10px;
+}
+
+.black {
+  background-color: black;
+}
+
+.note {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last {
+  border: 4px solid black;
+  margin: 0;
+  padding: 10px;
+  background-color: aliceblue;
+}
