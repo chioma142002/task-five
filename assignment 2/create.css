@@ -1,0 +1,41 @@
+body{
+    background-image: url('crashcourse/Netflix-Background.jpg');
+    background-color: red;
+    z-index: 1;
+    /* background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    padding: 5px; */
+}
+
+
+.wrapper{
+    background-color: black;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 5px 15px 40px 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+h1{
+    color: white;
+}
+.remember-forgot{
+    color: white;
+    font-weight: lighter;
+}
+.register-link{
+    color: grey;
+}
+
+.input-box{
+    background-color: transparent;
+    margin-bottom: 8px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

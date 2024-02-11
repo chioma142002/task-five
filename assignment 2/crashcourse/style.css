@@ -1,0 +1,105 @@
+body{
+   
+    color: white;
+    background-image: url('crashcourse/Netflix-Background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    padding: 2px;
+    position: relative;
+    z-index: 3;
+    height: 100vh;
+}
+
+
+    
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-right{
+    justify-content: center;
+    align-items: center;
+}
+ .header-right select{
+    background: transparent;
+    color: white;
+    padding: 1.5px 7px;
+    padding-left: 20px;
+}
+.svg{
+    height: 5px;
+    width: 18px;
+    fill: white;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 2px;
+
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.button-like-link{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5px 8px;
+}
+
+.note{
+justify-content: center;
+text-align: center;
+}
+.type{
+    position: relative;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr max-content;
+}
+
+    
+
+.email{
+    width: 170px;
+    background-color: white;
+    border-style: none;
+    margin: 0;
+    z-index: 3;
+}
+.custom-button{
+    border-style: none;
+    background-color: red;
+    margin: 0;
+    
+}
+.click{
+    margin: 0;
+}
+.showcase-top{
+    background: url('backgriund.jpg') center/cover no-repeat;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 20px 25px;
+}
+section div.texts h1{
+    font-size: 2.5rem;
+}
+section div.texts p{
+    font-size: 1.625 rem;
+}
+section:nth-child(odd) div.texts{
+order: 2;
+}
+.questions p{
+    background-color: grey;
+}
+.plus{
+    height: 50px;
+    width: 20px;
+}
